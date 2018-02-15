@@ -1,0 +1,623 @@
+/*css for mobile*/
+@media screen and (max-width: 767px) {
+  .name {
+    font-size: 70px !important;
+  }
+  .typewriter h1 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    font-size: 30px !important;
+    text-align: center;
+    color: #666;
+    font-family: monospace;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .1em;
+    /* Adjust as needed */
+    line-height: 1 !important;
+  }
+  body,
+  html {
+    margin: 0 auto !important;
+  }
+  .info6 {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+  }
+  .container2 {
+    width: 100% !important;
+    padding: 11px !important;
+  }
+  #navbar a {
+    padding: 10px !important;
+  }
+  .mypic {
+    clear: left !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+  .info2 {
+    padding-top: 1px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .borderquote {
+    margin-top: 30px !important;
+    margin-bottom: 10px !important;
+    padding-right: 0px !important;
+  }
+  .quote {
+    line-height: .9 !important;
+    font-size: 60px !important;
+  }
+  .info3 {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .skills2 {
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+  }
+  .skillsList {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+}
+
+/* css for web*/
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+  background: rgb(223, 223, 223);
+}
+
+.bg1 {
+  background-image: url('https://hdwallsource.com/img/2014/3/nice-backgrounds-18604-19074-hd-wallpapers.jpg');
+  min-height: 100%;
+}
+
+.bg2 {
+  background-image: url('https://1aeb5e7d0c5d5f6c52fb-c3b551035c84ead66cbe78f4e873c0f1.ssl.cf2.rackcdn.com/1726d2a6114cd9c4f9d18bfffbead277-ed754c28d32221fa7ad575e9ddf07e7c.jpg');
+  min-height: 350px;
+}
+
+.bg3 {
+  background-image: url('http://hddesktopwallpaper.org/wp-content/uploads/2016/09/macbook-desktop-wallpaper8.jpg');
+  min-height: 350px;
+}
+
+.bg4 {
+  background-image: url('https://fthmb.tqn.com/_P_IpRezcdFY2uZZNjKtLpyj2zA=/1500x1000/filters:fill(auto,1)/JavaScript-58acbb8a3df78c345bad32c2.jpg');
+  min-height: 350px;
+}
+
+.bg5 {
+  background-image: url('https://i.pinimg.com/originals/1d/3f/39/1d3f3958011de1099f2622fd5ec02e70.jpg');
+  min-height: 350px;
+}
+
+
+.bg1,
+.bg2,
+.bg3,
+.bg4,
+.bg5 {
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.info1 {
+  background-color: black;
+  color: lightblue;
+}
+
+.info2 {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  padding-left: 95px;
+  padding-right: 95px;
+  background-color: rgb(223, 223, 223);;
+  color: lightblue;
+  font-size: 19px;
+  font-family: 'Telex', sans-serif;
+  letter-spacing: 0.08em;
+  line-height: 1.6;
+}
+
+.borderquote {
+  border-top: solid 1px #979090;
+  ;
+  border-bottom: solid 1px #979090;
+  display: inline-block;
+  overflow: auto;
+  text-align: center;
+}
+
+.quote {
+  font-style: italic;
+  font-family: 'Reenie Beanie', sans-serif;
+  color: #979090;
+  font-size: 60px;
+  display: inline-block;
+  overflow: auto;
+  text-align: center;
+  padding-right: 4px;
+  line-height: 1;
+}
+
+.bio:first-letter {
+  color: lightblue;
+  font-family: 'Telex', sans-serif;
+  float: left;
+  font-weight: bold;
+  font-size: 50px;
+  font-size: 6rem;
+  line-height: 40px;
+  line-height: 4rem;
+  height: 4rem;
+  text-transform: uppercase;
+  padding-right: 10px;
+}
+
+.mypic {
+  transform: rotate(4deg);
+  padding: 30px;
+  float: left;
+}
+
+.name {
+  font-family: 'Trajan';
+  font-size: 100px;
+  padding-bottom: 10px;
+  color: black;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+
+.ptext {
+  position: absolute;
+  top: 70%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  font-family: 'lobster';
+}
+
+.ptext .border {
+  font-size: 40px;
+  font-weight: bold;
+  background-color: lightblue;
+  color: black;
+  padding-left: 10px;
+  padding-right: 1px;
+  opacity: .9;
+  border-radius: 15px;
+}
+
+/* Style the navbar */
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  z-index: 10;
+  font-family: 'Telex', sans-serif;
+}
+
+/* Navbar links */
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-family: 'Telex', sans-serif;
+}
+
+/* Page content */
+
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+
+.sticky+.content {
+  padding-top: 60px;
+}
+
+.typewriter h1 {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  font-size: 50px;
+  text-align: center;
+  color: #666;
+  text-shadow: 1px 1px black;
+  font-family: 'lobster';
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+  /* Adjust as needed */
+}
+
+.info3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+
+.skills2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: lightblue;
+  display: inline-block;
+  overflow: auto;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  background-color: #333;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 15px;
+}
+
+.skillsList {
+  text-align: center;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.info4 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  /* background: #d9a7c7;  /* fallback for old browsers 
+     background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 
+     background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+    /*background-color: rgba(255, 254, 254, 0.89); */
+  color: #353333;
+  font-size: 20px;
+  letter-spacing: 0.09em;
+  font-family: 'Telex', sans-serif;
+}
+
+.projects {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.pic1 {
+  opacity: 0.5;
+  filter: alpha(opacity=30);
+  display: inline-block;
+  overflow: auto;
+}
+
+.pic1 {
+  opacity: 0.5;
+  filter: alpha(opacity=30);
+  display: inline-block;
+  overflow: auto;
+  width: 100%;
+}
+
+.pic1:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.pic1border {
+  display: inline-block;
+  overflow: auto;
+  margin: 15px;
+  -webkit-box-shadow: 0 8px 6px -6px #6E6C6C;
+  -moz-box-shadow: 0 8px 6px -6px #6E6C6C;
+  box-shadow: 0 8px 6px -6px #6E6C6C;
+  width: 350px;
+}
+
+.pic2 {
+  opacity: 0.5;
+  filter: alpha(opacity=30);
+  display: inline-block;
+  overflow: auto;
+  width: 100%;
+}
+
+.pic2:hover {
+  opacity: 2;
+  filter: alpha(opacity=100);
+}
+
+.pic2border {
+  display: inline-block;
+  overflow: auto;
+  margin: 15px;
+  -webkit-box-shadow: 0 8px 6px -6px #6E6C6C;
+  -moz-box-shadow: 0 8px 6px -6px #6E6C6C;
+  box-shadow: 0 8px 6px -6px #6E6C6C;
+  width: 350px;
+}
+
+.pic3 {
+  opacity: 0.5;
+  filter: alpha(opacity=30);
+  display: inline-block;
+  overflow: auto;
+  width: 100%;
+}
+
+.pic3:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.pic3border {
+  display: inline-block;
+  overflow: auto;
+  margin: 15px;
+  -webkit-box-shadow: 0 8px 6px -6px #6E6C6C;
+  -moz-box-shadow: 0 8px 6px -6px #6E6C6C;
+  box-shadow: 0 8px 6px -6px #6E6C6C;
+  width: 350px;
+}
+
+.pic4 {
+  opacity: 0.5;
+  filter: alpha(opacity=30);
+  display: inline-block;
+  overflow: auto;
+  width: 100%;
+}
+
+.pic4:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.pic4border {
+  display: inline-block;
+  overflow: auto;
+  margin: 15px;
+  -webkit-box-shadow: 0 8px 6px -6px #6E6C6C;
+  -moz-box-shadow: 0 8px 6px -6px #6E6C6C;
+  box-shadow: 0 8px 6px -6px #6E6C6C;
+  width: 350px;
+}
+
+.pic5 {
+  opacity: 0.5;
+  filter: alpha(opacity=30);
+  display: inline-block;
+  overflow: auto;
+  width: 100%;
+}
+
+.pic5:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.pic5border {
+  display: inline-block;
+  overflow: auto;
+  margin: 15px;
+  -webkit-box-shadow: 0 8px 6px -6px #6E6C6C;
+  -moz-box-shadow: 0 8px 6px -6px #6E6C6C;
+  box-shadow: 0 8px 6px -6px #6E6C6C;
+  width: 350px;
+}
+
+.pic6 {
+  opacity: 0.5;
+  filter: alpha(opacity=30);
+  display: inline-block;
+  overflow: auto;
+  width: 100%;
+}
+
+.pic6:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.pic6border {
+  display: inline-block;
+  overflow: auto;
+  margin: 15px;
+  -webkit-box-shadow: 0 8px 6px -6px #6E6C6C;
+  -moz-box-shadow: 0 8px 6px -6px #6E6C6C;
+  box-shadow: 0 8px 6px -6px #6E6C6C;
+  width: 350px;
+}
+
+.description {
+  letter-spacing: .9px;
+  text-align: center;
+  font-size: 15px;
+  width: 100%;
+  line-height: 1.2;
+  color: #444040;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.info5{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(223, 223, 223);;
+  color: black;
+  font-size: 23px;
+  letter-spacing: 0.09em;
+  text-align: center;
+  }
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical;
+  /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-size: 18px;
+}
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+  background-color: rgb(43, 165, 206);
+}
+
+/* Add a background color and some padding around the form */
+
+.info6 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: lightblue;
+  color: white;
+  font-size: 10px;
+  letter-spacing: 0.09em;
+  text-align: left;
+  width: 100%;
+}
+
+.copyrights {
+  font-size: 18px;
+  color: white;
+  float: left;
+  padding-top: 10px;
+}
+
+.links {
+  margin: auto;
+  overflow: hidden;
+}
+
+.email {
+  opacity: 0.5;
+  filter: alpha(opacity=30);
+  float: right;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.email:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.github {
+  opacity: 0.5;
+  filter: alpha(opacity=30);
+  float: right;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.github:hover {
+  opacity: 2;
+  filter: alpha(opacity=100);
+}
+
+.linkedin {
+  opacity: 0.5;
+  filter: alpha(opacity=30);
+  float: right;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.container2 {
+  border-radius: 5px;
+  background-color: lightblue;
+  padding: 15px;
+  width: 60%;
+  margin: auto;
+}
+
+.linkedin:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+input[type=text] {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+}
