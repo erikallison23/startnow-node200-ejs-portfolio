@@ -1,6 +1,9 @@
 const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
+const dotenv = require('dotenv').config();
+const PORT = process.env.PORT || 8080;
+
 
 const app = express();
 
@@ -48,10 +51,32 @@ app.get('/contact', (req, res) => {
 
 //thanks page
 app.post('/thanks', (req, res) => {
+    const accountSid = process.env.accountSid;
+    const authToken = process.env.authToken;
+    const client = require('twilio')(accountSid, authToken);
+
+    var userInfo = {
+        Name: req.body.Name,
+        Email: req.body.Email,
+        Company: req.body.Company,
+        Subject: req.body.Subject
+
+    }
+
+    client.messages.create({
+        to: '+18584421584',
+        from:'+18582424212',
+        body:  `${userInfo.Name}, ${userInfo.Email}, ${userInfo.Company}, ${userInfo.Subject}` 
+    }, function(err, message){
+        console.log(accountSid);
+
+    });
+
     res.render('thanks', {
-        contact: req.body
+        userInfo: userInfo
     })
 });
+
 
 // Catch and handle everything else
 app.get('*', function (req, res) {
