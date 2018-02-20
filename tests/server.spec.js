@@ -5,9 +5,8 @@ const server = require('../server/app');
 chai.use(chaiHttp);
 const expect = chai.expect;
 
-server.listen(4444);
 
-describe('server/app.js', function () {
+describe('server', function () {
     this.timeout(5000);
     beforeEach((done) => {
 
