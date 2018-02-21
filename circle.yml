@@ -2,7 +2,7 @@ deployment:
   prod:
     branch: master
     heroku:
-      appname: ea-personalporfolio
+      appname: ea-personalportfolio
 machine:
   node:
     version: 8.1.4
