@@ -1,6 +1,6 @@
 {
   "name": "eriks_portfolio",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "\"My personal portfolio\"",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,7 @@
     "twilio": "^3.11.3"
   },
   "devDependencies": {
-    "chai": "^4.1.2"
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0"
   }
 }
