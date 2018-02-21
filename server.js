@@ -83,6 +83,8 @@ app.get('*', function (req, res) {
     res.send('Whoops, page not found 404').status(404);
 })
 
-app.listen(8080, () => {
+module.exports = app.listen(PORT, () => {
     console.log('listening at http://localhost:8080');
 });
+
+module.exports = app;
