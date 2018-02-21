@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha tests",
-    "start": "nodemon server"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,6 @@
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "morgan": "^1.9.0",
-    "nodemon": "^1.15.1",
     "twilio": "^3.11.3"
   },
   "devDependencies": {
