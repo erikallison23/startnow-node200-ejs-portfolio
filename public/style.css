@@ -4,22 +4,7 @@
   .name {
     font-size: 70px !important;
   }
-  .typewriter h1 {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    font-size: 30px !important;
-    text-align: center;
-    color: #666;
-    font-family: monospace;
-    overflow: hidden;
-    /* Ensures the content is not revealed until the animation */
-    margin: 0 auto;
-    /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .1em;
-    /* Adjust as needed */
-    line-height: 1 !important;
-  }
+
   body,
   html {
     margin: 0 auto !important;
@@ -81,6 +66,10 @@
 
 /* css for web*/
 
+html {
+  background: #283f66;
+}
+
 body,
 html {
   height: 100%;
@@ -89,33 +78,32 @@ html {
   font-family: "futura", sans-serif;
   font-weight: 400;
   line-height: 1.8em;
-  color: #666;
-  background: rgb(223, 223, 223);
+  color: white;
 }
 
 .bg1 {
-  background-image: url('https://hdwallsource.com/img/2014/3/nice-backgrounds-18604-19074-hd-wallpapers.jpg');
+  background-image: url('./assets/lajollapier.jpeg');
   min-height: 100%;
 }
 
 .bg2 {
-  background-image: url('https://1aeb5e7d0c5d5f6c52fb-c3b551035c84ead66cbe78f4e873c0f1.ssl.cf2.rackcdn.com/1726d2a6114cd9c4f9d18bfffbead277-ed754c28d32221fa7ad575e9ddf07e7c.jpg');
-  min-height: 350px;
+  background-image: url('./assets/mammothsnow.jpg');
+  min-height: 250px;
 }
 
 .bg3 {
-  background-image: url('http://hddesktopwallpaper.org/wp-content/uploads/2016/09/macbook-desktop-wallpaper8.jpg');
-  min-height: 350px;
+  background-image: url('./assets/macbook.jpeg');
+  min-height: 250px;
 }
 
 .bg4 {
-  background-image: url('https://fthmb.tqn.com/_P_IpRezcdFY2uZZNjKtLpyj2zA=/1500x1000/filters:fill(auto,1)/JavaScript-58acbb8a3df78c345bad32c2.jpg');
-  min-height: 350px;
+  background-image: url('./assets/spaceguy.jpeg');
+  min-height: 250px;
 }
 
 .bg5 {
-  background-image: url('https://i.pinimg.com/originals/1d/3f/39/1d3f3958011de1099f2622fd5ec02e70.jpg');
-  min-height: 350px;
+  background-image: url('./assets/spacexsat.jpeg');
+  min-height: 250px;
 }
 
 .bg1,
@@ -124,7 +112,7 @@ html {
 .bg4,
 .bg5 {
   position: relative;
-  opacity: 0.70;
+
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -132,7 +120,7 @@ html {
 }
 
 .info1 {
-  background-color: black;
+  background: #283f66;
   color: lightblue;
 }
 
@@ -141,13 +129,17 @@ html {
   padding-bottom: 30px;
   padding-left: 95px;
   padding-right: 95px;
-  background-color: rgb(223, 223, 223);
-  ;
+  background: #283f66;
   color: lightblue;
   font-size: 19px;
   font-family: 'Telex', sans-serif;
   letter-spacing: 0.08em;
   line-height: 1.6;
+}
+
+.bio {
+  background: #283f66;
+  
 }
 
 .bio:first-letter {
@@ -165,25 +157,48 @@ html {
 }
 
 .mypic {
-  transform: rotate(4deg);
+  transform: rotate(-4deg);
   padding: 20px;
   float: left;
 }
 
-.name {
-  font-family: 'trajan';
-  font-size: 100px;
-  padding-bottom: 10px;
-  color: black;
+.epicShot {
   position: absolute;
-  top: 40%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
   width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background: url(../assets/me.jpg);
+  border-radius: 60px;
+}
+.mypic:hover .epicShot {
+  opacity: 1;
+  transform: rotate(4deg);
+}
+
+
+.name {
+  font-family: 'Alba Super';
+  color:white;
+  width: 35%;
   text-align: center;
+  border-style: solid;
+  border-color: white;
+  background: #283f66;
+  opacity: 0.7;
+  position: absolute;
+  margin-top: 350px;
 }
 
 #bio {
   margin-right: 50px;
   margin-left: 500px;
+  background: #283f66;
+  color: white;
 }
 
 .ptext {
@@ -191,7 +206,7 @@ html {
   top: 70%;
   width: 100%;
   text-align: center;
-  color: #000;
+  color: rgb(255, 255, 255);
   font-size: 27px;
   letter-spacing: 8px;
   text-transform: uppercase;
@@ -201,8 +216,7 @@ html {
 .ptext .border {
   font-size: 40px;
   font-weight: bold;
-  background-color: lightblue;
-  color: black;
+  color: white;
   padding-left: 10px;
   padding-right: 1px;
   opacity: .9;
@@ -213,7 +227,8 @@ html {
 
 #navbar {
   overflow: hidden;
-  background-color: #333;
+  background: url(../assets/bluebackground.jpg);
+  background-size: 100%;
   z-index: 10;
   font-family: 'futura', sans-serif;
 }
@@ -250,21 +265,7 @@ html {
   padding-top: 60px;
 }
 
-.typewriter h1 {
-  position: absolute;
-  top: 60%;
-  width: 100%;
-  font-size: 40px;
-  text-align: center;
-  color: rgb(1, 82, 109);
-  text-shadow: 2px 1px white;
-  font-family: 'pacifico';
-  /* Ensures the content is not revealed until the animation */
-  margin: 0 auto;
-  /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em;
-  /* Adjust as needed */
-}
+
 
 .info3 {
   padding-top: 20px;
@@ -274,25 +275,17 @@ html {
 }
 
 .skills2 {
-  font-size: 20px;
-  font-weight: bold;
-  color: lightblue;
   display: inline-block;
   overflow: auto;
   margin-right: 20px;
   margin-bottom: 10px;
   margin-left: 20px;
-  background-color: #333;
+  background: white;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 15px;
-  /* Firefox */
-  -moz-box-shadow: 5px 5px 7px rgba(33, 33, 33, 1);
-  /* Safari+Chrome */
-  -webkit-box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
-  /* Opera */
   box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
 }
 
@@ -300,6 +293,7 @@ html {
   text-align: center;
   padding-left: 70px;
   padding-right: 70px;
+  background: #283f66;
 }
 
 .info4 {
@@ -320,7 +314,7 @@ h2 {
 hr {
   border: 0;
   height: 3px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), white, rgba(0, 0, 0, 0));
 }
 
 /* projects*/
@@ -330,6 +324,7 @@ hr {
   display: inline-block;
   width: 100%;
   font-size: 25px;
+  color: white;
 }
 
 .containerInside {
@@ -372,7 +367,7 @@ hr {
 }
 
 .text {
-  color: black;
+  color: #444;
   font-size: 15px;
   position: absolute;
   top: 50%;
@@ -387,9 +382,8 @@ hr {
   padding-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
-  background-color: rgb(223, 223, 223);
-  ;
-  color: black;
+  background: #283f66;
+  color: white;
   font-size: 23px;
   letter-spacing: 0.09em;
   text-align: center;
@@ -423,7 +417,7 @@ textarea {
 
 input[type=submit] {
   background-color: white;
-  color: black;
+  color: #283f66;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -436,10 +430,10 @@ input[type=submit] {
   box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
 
 input[type=submit]:hover {
-  background-color: rgb(43, 165, 206);
+  background-color: #283f66;
+  color: white;
 }
 
 /* Add a background color and some padding around the form */
@@ -449,7 +443,8 @@ input[type=submit]:hover {
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: lightblue;
+  background: url(../assets/bluebackground.jpg);
+  background-size: 100%;
   color: white;
   font-size: 10px;
   letter-spacing: 0.09em;
@@ -505,10 +500,12 @@ input[type=submit]:hover {
 
 .container2 {
   border-radius: 5px;
-  background-color: lightblue;
+  background: url(../assets/bluebackground.jpg);
+  background-size: 100%;
   padding: 15px;
   width: 60%;
   margin: auto;
+  color: #283f66;
 }
 
 .linkedin:hover {
