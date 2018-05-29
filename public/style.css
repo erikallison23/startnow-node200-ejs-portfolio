@@ -139,7 +139,6 @@ html {
 
 .bio {
   background: #283f66;
-  
 }
 
 .bio:first-letter {
@@ -148,12 +147,10 @@ html {
   float: left;
   font-weight: bold;
   font-size: 50px;
-  font-size: 6rem;
   line-height: 40px;
-  line-height: 4rem;
   height: 4rem;
   text-transform: uppercase;
-  padding-right: 10px;
+  padding-right: 5px;
 }
 
 .mypic {
@@ -206,11 +203,12 @@ html {
 .nameFont2 {
   font-size: 35px;
   margin-bottom: 20px; 
+  font-family: 'pacifico';
 }
 
 .nameFont3 {
-  font-size: 20px;
-
+  font-size: 40px;
+  padding-top: 20px;
 }
 
 #bio {
@@ -218,6 +216,7 @@ html {
   margin-left: 500px;
   background: #283f66;
   color: white;
+  font-size: 20px;
 }
 
 .ptext {
@@ -529,7 +528,8 @@ input[type=submit]:hover {
   border-radius: 5px;
   background: url(../assets/bluebackground.jpg);
   background-size: 100%;
-  padding: 15px;
+  padding-top: 100px;
+  padding-bottom: 30px;
   width: 60%;
   margin: auto;
   color: #283f66;
