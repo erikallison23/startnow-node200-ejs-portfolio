@@ -89,6 +89,27 @@ html {
   background-position: center;
 }
 
+.nameTitle {
+  height: 10em;
+  position: relative; 
+  color:white;
+}
+
+.nameTitleInside{
+  font-size: 120px;
+  font-family: 'pacifico';
+  opacity: .3;
+}
+
+.nameTitle .nameTitleInside{
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  bottom: 100%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
 
 .info1 {
   background: #fff;
@@ -250,6 +271,7 @@ html {
   overflow: auto;
   margin-right: 20px;
   margin-bottom: 10px;
+  margin-top: 10px;
   margin-left: 20px;
   background: white;
   padding-left: 15px;
@@ -265,17 +287,8 @@ html {
   padding-left: 70px;
   padding-right: 70px;
   background: rgb(48, 48, 48);
-}
-
-.info4 {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 40px;
-  padding-right: 40px;
-  color: #353333;
-  font-size: 20px;
-  letter-spacing: 0.09em;
-  font-family: "Avenir", sans-serif;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 h2 {
@@ -296,6 +309,7 @@ hr {
   font-family: "Avenir", sans-serif;
   font-size: 25px;
   color: rgb(48, 48, 48);
+  padding-bottom: 20px;
 }
 
 .containerInside {
@@ -310,19 +324,25 @@ hr {
   display: block;
   width: 100%;
   height: auto;
-  /* Firefox */
-  -moz-box-shadow: 5px 5px 7px rgba(33, 33, 33, 1);
-  /* Safari+Chrome */
-  -webkit-box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
-  /* Opera */
   box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
   border-radius: 25px;
   margin-top: 35px;
 }
 
+.ficusImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  box-shadow: 5px 5px 7px rgba(33, 33, 33, .7); 
+  border-radius: 25px;
+  margin-top: 35px;
+}
+
 .ficus {
+  display: fixed;
   width: auto;
   height: 300px;
+  justify-content: center;
   align-content: center;
   margin-bottom: 35px;
 }
@@ -337,7 +357,7 @@ hr {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: white;
+  background-color: rgb(48, 48, 48);
   border-radius: 25px;
 }
 
@@ -346,7 +366,7 @@ hr {
 }
 
 .text {
-  color: #444;
+  color: white;
   font-size: 15px;
   position: absolute;
   top: 50%;
@@ -355,21 +375,6 @@ hr {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-
-.info5 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
-  background: #283f66;
-  color: rgb(48, 48, 48);
-  font-size: 23px;
-  letter-spacing: 0.09em;
-  text-align: center;
-}
-
-
-/* Add a background color and some padding around the form */
 
 .info6 {
   padding-top: 10px;
