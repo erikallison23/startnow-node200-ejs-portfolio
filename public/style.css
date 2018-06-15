@@ -67,7 +67,8 @@
 /* css for web*/
 
 html {
-  background: #283f66;
+  background: #fff;
+ /*cream  background: #fffceb; */
 }
 
 body,
@@ -75,52 +76,22 @@ html {
   height: 100%;
   margin: 0;
   font-size: 16px;
-  font-family: "futura", sans-serif;
+  font-family: "Avenir", sans-serif;
   font-weight: 400;
   line-height: 1.8em;
   color: white;
 }
 
 .bg1 {
-  background-image: url('./assets/lajollapier.jpeg');
-  min-height: 100%;
-}
-
-.bg2 {
-  background-image: url('./assets/mammothsnow.jpg');
-  min-height: 250px;
-}
-
-.bg3 {
-  background-image: url('./assets/macbook.jpeg');
-  min-height: 250px;
-}
-
-.bg4 {
-  background-image: url('./assets/spaceguy.jpeg');
-  min-height: 250px;
-}
-
-.bg5 {
-  background-image: url('./assets/spacexsat.jpeg');
-  min-height: 250px;
-}
-
-.bg1,
-.bg2,
-.bg3,
-.bg4,
-.bg5 {
+  background-image: url('./assets/Photos/lajollapier.jpeg');
+  min-height: 40%;
   position: relative;
-
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
+
 
 .info1 {
-  background: #283f66;
+  background: #fff;
   color: lightblue;
 }
 
@@ -129,34 +100,31 @@ html {
   padding-bottom: 30px;
   padding-left: 95px;
   padding-right: 95px;
-  background: #283f66;
+  background: #fff;
   color: lightblue;
   font-size: 19px;
-  font-family: 'Telex', sans-serif;
+  font-family: "Avenir", sans-serif;
   letter-spacing: 0.08em;
   line-height: 1.6;
 }
 
 .bio {
-  background: #283f66;
+  margin-right: 50px;
+  margin-left: 500px;
+  background: #fff;
+  color: rgb(48, 48, 48);
+  font-size: 18px;
 }
 
-.bio:first-letter {
-  color: lightblue;
-  font-family: 'futura', sans-serif;
-  float: left;
-  font-weight: bold;
-  font-size: 50px;
-  line-height: 40px;
-  height: 4rem;
-  text-transform: uppercase;
-  padding-right: 5px;
+#bio {
+  padding-bottom: 20px;
 }
 
 .mypic {
   transform: rotate(-4deg);
   padding: 20px;
   float: left;
+  border-radius: 60px;
 }
 
 .epicShot {
@@ -176,7 +144,6 @@ html {
   opacity: 1;
   transform: rotate(4deg);
 }
-
 
 .name {
   font-family: 'Alba Super';
@@ -211,24 +178,17 @@ html {
   padding-top: 20px;
 }
 
-#bio {
-  margin-right: 50px;
-  margin-left: 500px;
-  background: #283f66;
-  color: white;
-  font-size: 20px;
-}
 
 .ptext {
   position: absolute;
   top: 70%;
   width: 100%;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
   font-size: 27px;
   letter-spacing: 8px;
   text-transform: uppercase;
-  font-family: 'futura';
+  font-family: "Avenir", sans-serif;
 }
 
 .ptext .border {
@@ -242,17 +202,15 @@ html {
 }
 
 /* Style the navbar */
-
 #navbar {
   overflow: hidden;
-  background: url(../assets/bluebackground.jpg);
+  background: rgb(48, 48, 48);
   background-size: 100%;
   z-index: 10;
-  font-family: 'futura', sans-serif;
+  font-family: "Avenir", sans-serif;
 }
 
 /* Navbar links */
-
 #navbar a {
   float: left;
   display: block;
@@ -260,17 +218,15 @@ html {
   text-align: center;
   padding: 14px;
   text-decoration: none;
-  font-family: 'futura', sans-serif;
+  font-family: "Avenir", sans-serif;
 }
 
 /* Page content */
-
 .content {
   padding: 16px;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-
 .sticky {
   position: fixed;
   top: 0;
@@ -278,12 +234,9 @@ html {
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-
 .sticky+.content {
   padding-top: 60px;
 }
-
-
 
 .info3 {
   padding-top: 20px;
@@ -311,7 +264,7 @@ html {
   text-align: center;
   padding-left: 70px;
   padding-right: 70px;
-  background: #283f66;
+  background: rgb(48, 48, 48);
 }
 
 .info4 {
@@ -322,7 +275,7 @@ html {
   color: #353333;
   font-size: 20px;
   letter-spacing: 0.09em;
-  font-family: 'futura';
+  font-family: "Avenir", sans-serif;
 }
 
 h2 {
@@ -332,17 +285,17 @@ h2 {
 hr {
   border: 0;
   height: 3px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), white, rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to right, white, rgb(48, 48, 48), white);
 }
 
 /* projects*/
-
 .projects {
   text-align: center;
   display: inline-block;
   width: 100%;
+  font-family: "Avenir", sans-serif;
   font-size: 25px;
-  color: white;
+  color: rgb(48, 48, 48);
 }
 
 .containerInside {
@@ -409,58 +362,12 @@ hr {
   padding-left: 30px;
   padding-right: 30px;
   background: #283f66;
-  color: white;
+  color: rgb(48, 48, 48);
   font-size: 23px;
   letter-spacing: 0.09em;
   text-align: center;
 }
 
-/* Style inputs with type="text", select elements and textareas */
-
-input[type=text],
-select,
-textarea {
-  width: 100%;
-  /* Full width */
-  padding: 12px;
-  /* Some padding */
-  border: 1px solid #ccc;
-  /* Gray border */
-  border-radius: 4px;
-  /* Rounded borders */
-  box-sizing: border-box;
-  /* Make sure that padding and width stays in place */
-  margin-top: 6px;
-  /* Add a top margin */
-  margin-bottom: 16px;
-  /* Bottom margin */
-  resize: vertical;
-  /* Allow the user to vertically resize the textarea (not horizontally) */
-  font-size: 18px;
-}
-
-/* Style the submit button with a specific background color etc */
-
-input[type=submit] {
-  background-color: white;
-  color: #283f66;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  /* Firefox */
-  -moz-box-shadow: 5px 5px 7px rgba(33, 33, 33, 1);
-  /* Safari+Chrome */
-  -webkit-box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
-  /* Opera */
-  box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
-}
-
-
-input[type=submit]:hover {
-  background-color: #283f66;
-  color: white;
-}
 
 /* Add a background color and some padding around the form */
 
@@ -469,7 +376,7 @@ input[type=submit]:hover {
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  background: url(../assets/bluebackground.jpg);
+  background: rgb(48, 48, 48);
   background-size: 100%;
   color: white;
   font-size: 10px;
