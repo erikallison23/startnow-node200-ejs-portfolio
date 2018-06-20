@@ -14,163 +14,248 @@
 </head>
 
 <body>
+
   <div id='navbar'>
     <a href='#about'>Home</a>
     <a href='#projects'>Projects</a>
   </div>
 
-  <div class='bg1'>
-    <div class='nameTitle'> <div class='nameTitleInside'>Erik Allison</div></div>
-  </div>
-
-  <div class='info2'>
-    <div class='mypic'>
-      <img src="../assets/Photos/e2.jpg" height='300px' class='mypic'>
-      <img src="../assets/Photos/me.jpg" height='300px' class='epicShot'>
+  <div class='bg1' id='about'>
+    <div class='nameTitle'>
+      <div class='nameTitleInside'>Erik Allison</div>
     </div>
   </div>
 
-  <div class='bio'>
-    <div id='bio'> Front-End web developer and designer with a passion for clean, user friendly websites and apps. </div>
-      <div id='bio'>Curious, creative, and passionate about building things from the ground up.</div>
-      <div id='bio'>Happy, positive, glass half full kind of guy.</div>
-      <div id='bio'> When not coding you may catch me out surfing my home breaks in San Diego, quoting Will Ferrell movies, or playing
-      music with friends.</div>
-      <div id='bio'> Current framework of choice: React</div>
-      <div id='bio'> Tool of passion: CSS</div>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-md-4'>
+        <div class='mypic'>
+          <img src="../assets/Photos/e2.jpg" height='300px' class='mypic' />
+          <img src="../assets/Photos/me.jpg" height='300px' class='epicShot' />
+        </div>
       </div>
 
+      <div class='col-md-8'>
+        <div class='bio'>
+          Front-End web developer and designer with a passion for clean, user friendly websites and apps.
+          <br>
+          <br> Curious, creative, and passionate about building things from the ground up.
+          <br>
+          <br> Happy, positive, glass half full kind of guy.
+          <br>
+          <br> When not coding you may catch me out surfing my home breaks in San Diego, quoting Will Ferrell movies, or playing
+          music with friends.
+
+        </div>
+      </div>
+    </div>
+  </div>
+
   <hr>
-  <section class='info 3' >
+  <section class='info 3'>
     <div class='projects'>
-         Toolbox  
+      Toolbox
     </div>
 
     <div class='skillsList'>
       <div class='skills2'>
-        <img src="../assets/skills/JS.png" height="80px">
+        <img src="../assets/skills/JS.png" height="80px" />
       </div>
       <div class='skills2'>
-        <img src="../assets/skills/HTML.png" height="80px">
+        <img src="../assets/skills/HTML.png" height="80px" />
       </div>
       <div class='skills2'>
-        <img src="../assets/skills/CSS.png" height="80px">
+        <img src="../assets/skills/CSS.png" height="80px" />
       </div>
       <div class='skills2'>
-        <img src="../assets/skills/Bootstrap.png" height="80px">
+        <img src="../assets/skills/Bootstrap.png" height="80px" />
       </div>
       <div class='skills2'>
-        <img src="../assets/skills/react.png" height="80px">
+        <img src="../assets/skills/react.png" height="80px" />
       </div>
       <div class='skills2'>
-        <img src="../assets/skills/redux.png" height="80px">
+        <img src="../assets/skills/redux.png" height="80px" />
       </div>
       <div class='skills2'>
-        <img src="../assets/skills/NodeJS.png" height="80px">
+        <img src="../assets/skills/NodeJS.png" height="80px" />
       </div>
       <div class='skills2'>
-        <img src="../assets/skills/MongoDB.png" height="80px">
+        <img src="../assets/skills/MongoDB.png" height="80px" />
       </div>
       <div class='skills2'>
-        <img src="../assets/skills/MySQL.png" height="80px">
+        <img src="../assets/skills/LoopBack.png" height="80px" />
       </div>
-  </div>
+      <div class='skills2'>
+        <img src="../assets/skills/Affinity.png" height="80px" />
+      </div>
+    </div>
   </section>
 
   <hr>
   <section class='info4' id='projects'>
-    <div class='row'>
-      <div class='projects'>
-        Projects
+
+    <div class='container-fluid'>
+
+      <div class='row'>
+        <div class='projects'>
+          Projects
+        </div>
       </div>
-    </div>
-    <br>
-    <div class='container'>
 
       <div class='row'>
 
-        <div class='col-md-12'>
+        <div class='col-md-8'>
           <div class='containerInside'>
-            <img src='../assets/Photos/ficus.png' class='image'>
-            <div class="overlay">
-              <div class="text">
-                <strong>Ficus Stock Trading App</strong>
-                </a>
-                <br> This is an stock trading app that I worked on with a group of 4, which got in the ios App store in 6 weeks.
-                <br> Check it out in the app store! Just search Ficus Mini.
-                <br>
-                <br> Technologies used: React Native, ReactStrap, MongoDB, Loopback and Redis.
+            <img src='../assets/Photos/FicusMini.png' class='image' />
+            <a href='https://itunes.apple.com/us/app/ficus-mini/id1380861174?mt=8'>
+              <div class='overlay'>
               </div>
-            </div>
+            </a>
           </div>
         </div>
 
-        <div class='col-md-12'>
-          <div class='containerInside'>
-            <img src='../assets/Photos/DavesDepot1.png' height='300px' width='300px' class='image'>
-            <div class="overlay">
-              <div class="text">
-                <a href='https://davesdepot.herokuapp.com/'>
-                  <strong>Daves Depot</strong>
-                </a>
-                <br> This was a one week group project designed to emulate an ecommerce store.
-                <br>
-                <br> Technolgies used: React Redux, CSS, Bootstrap, MongoDB and Loopback.
-              </div>
-            </div>
+
+        <div class='col-md-4'>
+          <div class="text">
+              <a href='https://itunes.apple.com/us/app/ficus-mini/id1380861174?mt=8'>
+            <strong>Ficus Mini</strong>
+            </a>
+            <br> This is an stock trading app that I worked on with a group of 4, which got in the ios App store in 6 weeks.
+            <br> Check it out in the app store! Just search Ficus Mini.
+            <br>
+            <br> Technologies used: React Native, ReactStrap, MongoDB, Loopback and Redis.
           </div>
         </div>
 
-        <div class='col-md-12'>
-          <div class='containerInside'>
-            <img src='../assets/Photos/MovieFinder1.png' height='300px' width='300px' class='image'>
-            <div class="overlay">
-              <div class="text">
-                <a href='https://ea-moviefinder.herokuapp.com/#/'>
-                  <strong>Movie Finder App</strong>
-                </a>
-                <br> This app lets you search for movies through the OMDB data base.
-                <br>
-                <br> Technologies used: React Redux, CSS, Bootstrap, Express and NodeJS.
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class='col-md-12'>
-          <div class='containerInside'>
-            <img src='../assets/Photos/Hackathon.png' height='300px' width='300px' class='image'>
-            <div class="overlay">
-              <div class="text">
-                <a href='https://ea-hackathon.herokuapp.com/'>
-                  <strong>Hackathon</strong>
-                </a>
-                <br> Built in 3 days, this app gives you the daily snow report for the Crans Montana Resort in the Swiss Alps
-                using 2 API's.
-                <br>
-                <br> Technologies used: React, CSS, Bootstrap, NodeJS and Express.
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class='col-md-12'>
-          <div class='containerInside'>
-            <img src='../assets/Photos/VSTDA.png' height='300px' width='300px' class='image'>
-            <div class="overlay">
-              <div class="text">
-                <a href='https://ea-vstda.herokuapp.com/'>
-                  <strong>Very Simple Todo App</strong>
-                </a>
-                <br> This is a todo app that lets you set list items by priority to help manage your errands.
-                <br>
-                <br> Technologies used: React, CSS, Bootstrap, NodeJS and Express.
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
+
+      <div class='row'>
+
+        <div class='col-md-8'>
+          <div class='containerInside'>
+            <img src='../assets/Photos/DavesDepot1.png' height='300px' width='300px' class='image' />
+            <a href='https://davesdepot.herokuapp.com/'>
+              <div class='overlay'>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class='col-md-4'>
+          <div class="text">
+            <a href='https://davesdepot.herokuapp.com/'>
+              <strong>Daves Depot</strong>
+            </a>
+            <br> This was a one week group project designed to emulate an ecommerce store.
+            <br>
+            <br> Technolgies used: React Redux, CSS, Bootstrap, MongoDB and Loopback.
+          </div>
+        </div>
+
+      </div>
+
+      <div class='row'>
+
+        <div class='col-md-8'>
+          <div class='containerInside'>
+            <img src='../assets/Photos/MovieFinder1.png' height='300px' width='300px' class='image' />
+            <a href='https://ea-moviefinder.herokuapp.com/#/'>
+              <div class='overlay'>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class='col-md-4'>
+          <div class="text">
+            <a href='https://ea-moviefinder.herokuapp.com/#/'>
+              <strong>Movie Finder</strong>
+            </a>
+            <br> This app lets you search for movies through the OMDB data base.
+            <br>
+            <br> Technologies used: React Redux, CSS, Bootstrap, Express and NodeJS.
+          </div>
+        </div>
+
+      </div>
+
+      <div class='row'>
+
+        <div class='col-md-8'>
+          <div class='containerInside'>
+            <img src='../assets/Photos/Hackathon.png' height='300px' width='300px' class='image' />
+            <a href='https://ea-hackathon.herokuapp.com/'>
+              <div class='overlay'>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class='col-md-4'>
+          <div class="text">
+            <a href='https://ea-hackathon.herokuapp.com/'>
+              <strong>Crans Montana Snow Report</strong>
+            </a>
+            <br> Built in 3 days, this app gives you the daily snow report for the Crans Montana Resort in the Swiss Alps using
+            2 API's.
+            <br>
+            <br> Technologies used: React, CSS, Bootstrap, NodeJS and Express.
+          </div>
+        </div>
+
+      </div>
+
+      <div class='row'>
+
+        <div class='col-md-8'>
+          <div class='containerInside'>
+            <img src='../assets/Photos/VSTDA.png' height='300px' width='300px' class='image' />
+            <a href='https://ea-vstda.herokuapp.com/'>
+              <div class='overlay'>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class='col-md-4'>
+          <div class="text">
+            <a href='https://ea-vstda.herokuapp.com/'>
+              <strong>To Do List</strong>
+            </a>
+            <br> This is a todo app that lets you set list items by priority to help manage your errands.
+            <br>
+            <br> Technologies used: React, CSS, Bootstrap, NodeJS and Express.
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class='row'>
+
+          <div class='col-md-8'>
+            <div class='containerInside'>
+              <img src='../assets/Photos/WeatherReport.png' height='300px' width='300px' class='image' />
+              <a href='https://ea-weatherapp.herokuapp.com/'>
+                <div class='overlay'>
+                </div>
+              </a>
+            </div>
+          </div>
+  
+          <div class='col-md-4'>
+            <div class="text">
+              <a href='https://ea-weatherapp.herokuapp.com/'>
+                <strong>Weather Report</strong>
+              </a>
+              <br> This is an app that lets you find out the weather for cities all over the world.
+              <br>
+              <br> Technologies used: React Redux, CSS, Bootstrap, NodeJS and Express.
+            </div>
+          </div>
+  
+        </div>
+
     </div>
   </section>
 
@@ -183,19 +268,19 @@
 
       <div class="github">
         <a href="https://github.com/erikallison23" target="_blank">
-          <img src="../assets/Photos/github.png" height="40px">
+          <img src="../assets/Photos/github.png" height="40px" />
         </a>
       </div>
 
       <div class="linkedin">
         <a href="https://www.linkedin.com/in/erik-allison-237aa7143/" target="_blank">
-          <img src="../assets/Photos/linkedin.png" height="40px">
+          <img src="../assets/Photos/linkedin.png" height="40px" />
         </a>
       </div>
 
       <div class="email">
         <a href="mailto:erikallison23@gmail.com" target="_blank">
-          <img src="../assets/Photos/gmail.png" height="40px">
+          <img src="../assets/Photos/gmail.png" height="40px" />
         </a>
       </div>
     </div>
@@ -208,6 +293,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
 </body>
-</body>
+
 
 </html>
